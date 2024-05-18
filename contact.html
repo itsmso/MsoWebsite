@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gpa-calculator.html">GPA Calculator</a></li>
+                <div class="logo">
+                    <img src="logo.png" alt="GPA Calculator Logo" style="height: 30px;">
+                </div>
+                <li><a href="tips.html">Tips to Improve Your GPA</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html">Contact US</a></li>
+            </ul>
+        </nav>
+    </header>
+<body>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="details">Details:</label>
+            <textarea id="details" name="details" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <p>© 2024 Mohammed's GPA Calculator. All rights reserved.</p>
+</footer>
+</html>
